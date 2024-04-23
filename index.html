@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>form</title>
+</head>
+<body>
+	<div>
+		<h1>PERSONAL DETAILS</h1>
+		<hr>
+		<form id="myForm" onsubmit="event.preventDefault(); subForm();">
+			NAME:<br>
+			<input type="text" name="name" placeholder="NAME"> <br>
+			PASSWORD:<br>
+			<input type="text" name="password"placeholder="PASSWORD"><br>
+			AGE:<br>
+			<input type="text" name="name"placeholder="AGE"><br>
+			CITY:<br>
+			<input type="text" name="password"placeholder="CITY"><br>
+			RELIGION:<br>
+			<input type="text" name="name"placeholder="RELIGION"><p>
+			<button type="submit">SUBMIT</button>
+		</form>
+	</div>
+	<h2 id="div2"></h2>
+</body>
+<script type="text/javascript">
+		
+		function subForm(){
+		var form = document.getElementById('myForm')
+		var result=document.getElementById('div2')
+			result.innerHTML="<h1>SUCCESSFUL</h1>";
+		}
+</script>
+</html>

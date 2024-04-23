@@ -1,0 +1,29 @@
+div{
+	width: 40%;
+	height: 50vh;
+	background-image: url("LOGO.JPG");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
+	margin: auto;
+	border-radius: 4px;
+	margin-top: 30px;
+	padding: 3px;
+}
+form{
+	text-align: center;
+	font-weight: bolder;
+}
+h1{
+	text-align: center;
+	color: tomato;
+}
+input{
+	padding: 3px;
+	border-radius: 3px;
+}
+button{
+	padding: 5px;
+	background-color: tomato;
+	border-radius: 5px;
+}
